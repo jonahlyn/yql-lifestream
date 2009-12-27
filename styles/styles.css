@@ -1,0 +1,47 @@
+body {
+    font-family: verdana, sans-serif;
+    font-size: 62.5%;
+}
+
+h1 { font-size: 3em; }
+
+h2 {
+    font-size: 1.8em;
+    line-height: 1em;
+    margin: 0;
+}
+
+ul#activity-feed{ 
+    list-style-type: none;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+
+ul#activity-feed h3 {
+    font-family: sans-serif;
+    font-size: 1.8em;
+    line-height: 1em;
+    margin: 0;
+}
+
+ul#activity-feed .post-date {
+    font-style: italic;
+    margin: 0;
+}
+
+ul#activity{
+    overflow: hidden;
+}
+
+ul#activity-feed li{
+    -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,.1);
+    -moz-box-shadow: 3px 3px 5px rgba(0,0,0,.1);
+    -o-box-shadow: 3px 3px 5px rgba(0,0,0,.1);
+    box-shadow: 3px 3px  5px rgba(0,0,0,.1); 
+    margin: 5px 5px 20px 5px;
+    padding: 5px;
+}
+
+
+
